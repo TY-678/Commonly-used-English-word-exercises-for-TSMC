@@ -108,6 +108,7 @@ class VocabularyGame:
             else:
                 result_message += f"{self.wordlist[i][1]} -> {self.wordlist[i][0]}\n"
 
+        # 將結果轉為txt檔，並輸出至summary資料夾
         import os
         from datetime import datetime
         now = str(datetime.now().time())  #summary name
