@@ -29,7 +29,7 @@
 
 1. 下載程式源碼：
    ```
-   git clone https://github.com/your-username/vocabulary-game.git
+   git clone https://github.com/TY-678/vocabulary-game.git
    ```
 
 2. 進入程式目錄：
