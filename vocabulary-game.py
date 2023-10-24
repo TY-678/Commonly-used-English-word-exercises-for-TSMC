@@ -113,6 +113,7 @@ class VocabularyGame:
         from datetime import datetime
         now = str(datetime.now().time())  #summary name
         now = ('{:.8s}'.format(now))
+        now = now.replace(':', '_')  # 將冒號替換為底線
         os.chdir('summary')
         with open(f'{now}.txt', 'w') as f:
             f.write(result_message)
